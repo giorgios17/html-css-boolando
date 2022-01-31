@@ -25,6 +25,13 @@ img{
     width: 100%;
 }
 
+.img-hover{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
 .card{
     height: 600px;
     width: 400px;
@@ -95,4 +102,12 @@ img{
     text-decoration: line-through;
     color: black;
     font-weight: 400;
+}
+
+.card:hover .like{
+    color: red;
+}
+
+.card:hover .img-hover{
+    display: inline;
 }
