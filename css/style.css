@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+.container{
+    margin: auto;
+    width: 62%;
+    background-color: yellow;
+    padding: 25px 150px;
+}
+
+.card{
+    background-color: red;
+    height: 600px;
+    width: 400px;
+    float: left;
+    margin-right: 18px;
+    margin-bottom: 40px;
+  
+    
+}
