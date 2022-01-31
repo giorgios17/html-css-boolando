@@ -10,6 +10,10 @@
     display: table;
   }
 
+  body{
+    font-family: 'Montserrat', sans-serif;
+  }
+
 .container{
     margin: auto;
     width: 62%;
@@ -17,13 +21,51 @@
     padding: 25px 150px;
 }
 
+img{
+    height: 100%;
+    width: 100%;
+}
+
 .card{
-    background-color: red;
     height: 600px;
     width: 400px;
     float: left;
     margin-right: 18px;
     margin-bottom: 40px;
-  
+    position: relative;
     
+}
+
+.sconto{
+    background-color: rgb(235, 0, 55);
+    position:absolute;
+    bottom: 20px;
+    left: 0px;
+    color: white;
+    padding: 4px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.eco{
+    background-color: rgb(1, 135, 90);
+    position: absolute;
+    bottom: 20px;
+    left: 42px;
+    color: white;
+    padding: 4px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.like{
+    background-color: white;
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    right: 0;
+    top: 15px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 22px;
 }
